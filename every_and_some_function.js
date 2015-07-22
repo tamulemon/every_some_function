@@ -75,15 +75,15 @@ function some(arr, evaluation) {
 var myArray1 = [NaN, NaN, 3, 4];
 var myArray2 = [NaN, NaN, NaN];
 var myArray3 = [1,2,3,4];
-//
-//console.log(every(myArray1,isNaN));
-//console.log(every(myArray2,isNaN));
-//console.log(every(myArray3,isNaN));
-//
-//
-//console.log(some(myArray1,isNaN));
-//console.log(some(myArray2,isNaN));
-//console.log(some(myArray3,isNaN));
+
+console.log(every(myArray1,isNaN));
+console.log(every(myArray2,isNaN));
+console.log(every(myArray3,isNaN));
+
+
+console.log(some(myArray1,isNaN));
+console.log(some(myArray2,isNaN));
+console.log(some(myArray3,isNaN));
 
 
 
@@ -97,7 +97,7 @@ function flatten(arr) {
 	return reduce(arr, concatArr, arr[0]);
 }
 
-//console.log(flatten(TwoDArr));
+console.log(flatten(TwoDArr));
 
 
 
@@ -123,7 +123,7 @@ ancestry.forEach(function(person) {
 		allCentries[centry] = [person];
 	}
 })
-//console.log(allCentries);
+console.log(allCentries);
 
 // calculate the total age of each centry
 function peopleLive(obj, base) {
